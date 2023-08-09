@@ -1,11 +1,11 @@
 # DFS Algorithm with Topological Order and PERT:
 UTD CS 3345 Project PERT
 
-Implement the PERT algorithm discussed in class.  Starter code (PERT.java) provided.
-Implement all the methods in the starter code.
-Driver code (P4Driver) and test cases are all also provided. (See p4 folder in ths shared box folder.)
+Depth-First Search is a graph traversal algorithm that explores as deeply as possible along each branch of a graph before backtracking. DFS doesn't necessarily find the shortest path between two nodes, especially if the graph has cycles. If finding the shortest path is required, algorithms like Breadth-First Search (BFS) or Dijkstra's algorithm are more appropriate.
 
-Do not change the name of the class.  Do not modify Graph class.
-Do not change the signatures of public methods in the starter code.
-If you need additional classes, define them as nested classes of PERT.
-You must write the DFS-based algorithm for finding a topological order.
+1. Initialization
+2. Visit Current Node
+3. Explore Unvisited Neighbors
+4. Recursive Exploration
+5. Backtracking
+6. Repeat
